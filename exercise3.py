@@ -7,7 +7,7 @@ wyświetla ich sumę. Wykorzystaj pętlę  for .
 from typing import List
 
 
-def max_number(numbers: List[int]) -> int:
+def calculate(numbers: List[int]) -> int:
     result = 0
     for number in numbers:
         result += number
@@ -22,4 +22,4 @@ for _ in range(5):
         print("Entered value is not a number")
         exit(-1)
 
-print(max_number(source))
+print(calculate(source))
